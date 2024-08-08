@@ -1,27 +1,27 @@
 Algoritmo "EXERCICIO 05 - VISUALG"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : DYEGO COELHO DE SOUZA e CRISTIANO MALASPINA
-// Descrição   : 5 faça um algoritmo que receba dois números e retorne o maior deles.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : 5 faÃ§a um algoritmo que receba dois nÃºmeros e retorne o maior deles.
+// Autor(a)    : Ednardo Amorim
 // Data atual  : 08/08/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 num1, num2 : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("Vamos determinar o maior número dentre de dois números")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+   escreval("Vamos determinar o maior nÃºmero dentre de dois nÃºmeros")
    
-   escreval("Informe o primeiro número:")
+   escreval("Informe o primeiro nÃºmero:")
    leia(num1)
    
-   escreval("Informe o segundo número:")
+   escreval("Informe o segundo nÃºmero:")
    leia(num2)
    
    se(num1 > num2) entao
-   escreval(num1, " é maior que ", num2, ".")
+   escreval(num1, " Ã© maior que ", num2, ".")
    senao
-   escreval(num2, " é maior que ", num1, ".")
+   escreval(num2, " Ã© maior que ", num1, ".")
    fimse
    
 
