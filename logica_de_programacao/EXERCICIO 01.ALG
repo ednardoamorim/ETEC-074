@@ -1,18 +1,18 @@
-Algoritmo "Exercicio 01"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Exercicio 01 - VisualG"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : DYEGO COELHO DE SOUZA e CRISTIANO MALASPINA
-// Descrição   : 1 - Faça um algoritmo que receba o nome e sobrenome, e responda com uma mensagem de boa noite.
+// DescriÃ§Ã£o   : 1 - FaÃ§a um algoritmo que receba o nome e sobrenome, e responda com uma mensagem de boa noite.
 // Autor(a)    : Ednardo Lopes de Amorim Junior
 // Data atual  : 07/08/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome, sobrenome : caracter
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    escreval("Me informe seu nome:")
    leia(nome)
-// Utilizei escreval ao invés de escreva para dar uma quebra de linha e ficar com melhor visualização
+// Utilizei escreval ao invÃ©s de escreva para dar uma quebra de linha e ficar com melhor visualizaÃ§Ã£o
    
    escreval("Me informe seu sobrenome")
    leia(sobrenome)
